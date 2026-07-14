@@ -1,0 +1,57 @@
+# =============================================================================
+#  This file must live at:  .github/workflows/metrics.yml  in your mpip0505 repo
+#  (create the folders .github/workflows/ if they don't exist yet)
+#
+#  It generates github-metrics.svg once a day and commits it to your repo.
+#  Your README references that committed file, so nothing loads live at page
+#  view — that's why it never breaks like the old cards did.
+# =============================================================================
+
+name: Metrics
+
+on:
+  # Regenerate once a day at 00:00 UTC (08:00 Malaysia time)
+  schedule:
+    - cron: "0 0 * * *"
+  # Let you trigger it by hand from the Actions tab
+  workflow_dispatch:
+  # Regenerate whenever you push to main
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
+        with:
+          # The token you'll create and store as a secret (see setup steps)
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: mpip0505
+          filename: github-metrics.svg
+
+          # ---- Overall look ----
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Kuala_Lumpur
+
+          # ---- Language breakdown (the "Most used languages" bar) ----
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 6
+
+          # ---- The 3D isometric contribution calendar ----
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          # ---- Commit streaks + commits-per-day facts ----
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: no
