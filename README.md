@@ -37,7 +37,15 @@ An end-to-end machine learning project that predicts PGA Tour scoring averages �
   <img src="https://img.shields.io/github/last-commit/mpip0505/golf-score-predictor?style=for-the-badge&color=3776AB" alt="Last commit" />
 </p>
 
-**Other projects:** serverless NBA prediction system, a serverless ML inference API (race-pace predictor), and a cloud-native URL shortener — all built on AWS Lambda + Terraform.
+### 🌏 MASA Hackathon 2026 — Climate Risk Actuarial Model
+
+A team hackathon submission for Hannover Re: a climate-risk actuarial model for Southeast Asian disaster insurance, combining a time-aware ARIMAX forecasting model with a stochastic catastrophe engine. Worked through real modelling challenges including ARIMAX convergence, residual diagnostics, and synthetic-data design.
+
+<p>
+  <a href="https://github.com/aarntn/MASA-HACKATHON-2026"><img src="https://img.shields.io/badge/View_Repo-MASA--HACKATHON--2026-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repo" /></a>
+  <img src="https://img.shields.io/github/stars/aarntn/MASA-HACKATHON-2026?style=for-the-badge&color=F7931E" alt="Stars" />
+  <img src="https://img.shields.io/github/last-commit/aarntn/MASA-HACKATHON-2026?style=for-the-badge&color=3776AB" alt="Last commit" />
+</p>
 
 ## Connect with me
 
