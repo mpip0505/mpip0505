@@ -1,6 +1,6 @@
 # Hi, I'm Afif 👋
 
-I'm a Software Engineering student at Universiti Malaya building toward a career in cloud and ML engineering. I work mostly with **AWS serverless** architectures and **Python-based machine learning**, and I like shipping real, end-to-end projects — model, deployment, and infrastructure — rather than tutorial rebuilds. Outside of code I'm a golfer (founded my school's Golf Club) and a runner training for a half marathon.
+I'm a Software Engineering student at Universiti Malaya building toward a career in cloud and ML engineering. I work mostly with **AWS serverless** architectures and **Python-based machine learning**, and I like shipping real, end-to-end projects — model, deployment, and infrastructure — rather than tutorial rebuilds. You can see more of my work on my [portfolio site](https://REPLACE-WITH-YOUR-PORTFOLIO-URL). Outside of code I'm a golfer (founded my school's Golf Club) and a runner training for a half marathon.
 
 ## What I'm working on
 
@@ -25,7 +25,7 @@ I'm a Software Engineering student at Universiti Malaya building toward a career
 
 ![Metrics](./github-metrics.svg)
 
-## Featured project
+## Featured projects
 
 ### ⛳ [PGA Tour Scoring Predictor](https://github.com/mpip0505/golf-score-predictor)
 
@@ -37,7 +37,17 @@ An end-to-end machine learning project that predicts PGA Tour scoring averages �
   <img src="https://img.shields.io/github/last-commit/mpip0505/golf-score-predictor?style=for-the-badge&color=3776AB" alt="Last commit" />
 </p>
 
-### 🌏 MASA Hackathon 2026 — Climate Risk Actuarial Model
+### 🛰️ [SEDIC Hackathon 2026 — Maritime Vessel Detection](https://github.com/mpip0505/sedic-hackathon-2026)
+
+A computer-vision project for detecting maritime vessels from imagery, built for SEDIC 2026 — covering the data pipeline, model training with YOLO, and evaluation.
+
+<p>
+  <a href="https://github.com/mpip0505/sedic-hackathon-2026"><img src="https://img.shields.io/badge/View_Repo-sedic--hackathon--2026-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repo" /></a>
+  <img src="https://img.shields.io/github/stars/mpip0505/sedic-hackathon-2026?style=for-the-badge&color=F7931E" alt="Stars" />
+  <img src="https://img.shields.io/github/last-commit/mpip0505/sedic-hackathon-2026?style=for-the-badge&color=3776AB" alt="Last commit" />
+</p>
+
+### 🌏 [MASA Hackathon 2026 — Climate Risk Actuarial Model](https://github.com/aarntn/MASA-HACKATHON-2026)
 
 A team hackathon submission for Hannover Re: a climate-risk actuarial model for Southeast Asian disaster insurance, combining a time-aware ARIMAX forecasting model with a stochastic catastrophe engine. Worked through real modelling challenges including ARIMAX convergence, residual diagnostics, and synthetic-data design.
 
@@ -50,6 +60,7 @@ A team hackathon submission for Hannover Re: a climate-risk actuarial model for 
 ## Connect with me
 
 <p>
+  <a href="https://muhaimin-afif.vercel.app"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/muhaimin-afif-mushahar-63b5aa2b6/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/mpip0505"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
