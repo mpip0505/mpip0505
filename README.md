@@ -5,7 +5,6 @@ I'm a Software Engineering student at Universiti Malaya building toward a career
 ## What I'm working on
 
 - **[PGA Tour Scoring Predictor](https://github.com/mpip0505/golf-score-predictor)** — An end-to-end ML project predicting scoring averages, built with Python & scikit-learn, deployed as a static site and extended onto AWS (S3 + CloudFront).
-- **[Serverless ML Inference API](https://github.com/mpip0505/ml-inference-api)** — A race-pace predictor served through AWS Lambda + API Gateway + S3, provisioned with Terraform.
 - **Certifications & learning** — Working toward AWS Cloud Practitioner and AI Practitioner, plus NDG Linux Essentials, while setting up CI/CD automation with the AWS CLI.
 
 ## Tech stack
