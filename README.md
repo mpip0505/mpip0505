@@ -1,6 +1,6 @@
 # Hi, I'm Afif 👋
 
-I'm a Software Engineering student at Universiti Malaya building toward a career in cloud and ML engineering. I work mostly with **AWS serverless** architectures and **Python-based machine learning**, and I like shipping real, end-to-end projects — model, deployment, and infrastructure — rather than tutorial rebuilds. You can see more of my work on my [portfolio site](https://REPLACE-WITH-YOUR-PORTFOLIO-URL). Outside of code I'm a golfer (founded my school's Golf Club) and a runner training for a half marathon.
+I'm a Software Engineering student at Universiti Malaya building toward a career in cloud and ML engineering. I work mostly with **AWS serverless** architectures and **Python-based machine learning**, and I like shipping real, end-to-end projects — model, deployment, and infrastructure — rather than tutorial rebuilds. You can see more of my work on my [portfolio site](https://muhaimin-afif.vercel.app). Outside of code I'm a golfer (founded my school's Golf Club) and a runner training for a half marathon.
 
 ## What I'm working on
 
